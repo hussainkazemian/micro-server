@@ -1,3 +1,8 @@
-## OpenWeatherMap
+## GitHub API
+![Github](/src/public/images/oct.png)
 
-![screenshot](/src/public/images/OWM.png)
+## JOSNPlaceholder
+![OWM](/src/public/images/posts.png)
+
+## OpenWeatherMap
+![OWM](/src/public/images/OWM.png)
