@@ -1,12 +1,9 @@
-import express, {Request, Response} from 'express';
-import {MessageResponse} from '../types/Messages';
+// src/index.ts
+import app from '../app';
 
-const router = express.Router();
 
-router.get<{}, MessageResponse>('/', (_req: Request, res: Response) => {
-  res.json({
-    message: 'api v1',
-  });
+const PORT = Number(process.env.PORT) || 3008;
+
+app.listen(PORT, () => {
+  console.log(`Gateway running on http://localhost:${PORT}`);
 });
-
-export default router;
